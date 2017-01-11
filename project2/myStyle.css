@@ -1,0 +1,102 @@
+/*
+
+Name: Alagiya, Ravi 
+Project : project 2
+Due Date : October 26
+UTA ID: 1001452485
+
+*/
+body
+{
+ margin: 0;
+ background-size:cover;
+ background-repeat: no-repeat;
+ color: darkblue;
+ background: aliceblue;
+ 
+
+
+}
+
+#map
+{
+    border:  rgba(41, 51, 243, 0.19) 5px solid;
+
+    width: 600px; height: 500px;
+   
+    margin: auto;
+}
+
+#history
+{
+    color: #2f5784; margin:auto; display:block; text-align: center;
+    border:  1px solid gray;
+
+width: 700px; margin:auto;
+}
+
+header
+{
+    margin: 0px;
+    padding: 18px;
+	text-align: center;
+	background: #3B3738;
+    color: white;
+    
+    
+}
+h1.header
+{
+    color:#F6F6F6;
+padding: 0;
+margin: 0;
+
+}
+
+label
+{
+    color: #2f5784; margin:auto; display:block; text-align: center;
+  
+  
+    font-size: 25px;
+
+}
+
+#clearButton
+{
+    width: 200px;
+   display: block;
+   margin: auto;
+
+}
+
+
+.button {
+    background-color: #5a5d95; /* Green */	
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+}
+#address, #weather
+{
+    float: left;
+width: 350px;
+display: inline;
+}
+
+
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
