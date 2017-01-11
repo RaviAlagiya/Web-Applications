@@ -1,0 +1,191 @@
+/*
+
+Name: Alagiya, Ravi 
+Project : project 1
+Due Date : October 19 
+UTA ID: 1001452485
+
+*/
+body
+{
+margin: 0;
+
+ background:url('img/snow.png');
+ background-size:cover;
+ background-repeat: no-repeat;
+ color: darkblue;
+ 
+
+}
+
+header
+{
+    margin: 0px;
+    padding: 18px;
+	text-align: center;
+	background: #3B3738;
+    
+    
+}
+h1.header
+{
+    color:#F6F6F6;
+padding: 0;
+margin: 0;
+
+}
+
+.inputDiv
+{
+    padding: 10px 0px;
+    width: 600px;
+
+margin: auto;
+}
+.inputForm
+{
+
+}
+.cityInfo
+{
+    height: 100px;
+    width: 550px;
+    margin: auto;
+}
+
+.WeatherAdvise
+{
+    font-size: 25px;
+    height: 125px;
+    padding: 10px;
+    width: 550px;
+    margin: auto;
+
+}
+
+.WeatherDetails, .dayInfo
+{
+    font-size: 25px;
+    height: 100px;
+    padding: 10px;
+    width: 550px;
+    margin: auto;
+}
+
+#minT, #maxT
+{
+    font-size: 20px;
+}
+#cityName
+{
+    font-size: 40px;
+}
+#latlon
+{
+    font-size: 20px;
+
+padding-left: 10px; 
+}
+#humidity, #visiblity, #pressure
+{
+    padding:5px;
+    font-size: 25px;
+}
+
+.img
+{
+    height: 70px;
+}
+.col12
+{
+    width: 50%;
+    float: left;
+
+}
+.col22
+{
+    width: 50%;
+float: left;
+
+
+}
+.col13
+{
+   
+    width: 200px;
+    height: 70px;
+    margin: 0;
+    float: left;
+
+}
+.col23
+{
+    height: 70px;
+
+    width: 200px;
+    margin: 0;
+    float: left;
+
+
+}
+.col33
+{
+    height: 70px;
+float: left;
+    margin: 0;
+    width: 200px;
+
+}
+label
+{
+  
+    margin:5px;
+    font-size: 25px;
+
+}
+#currentTemp
+{
+
+    font-size: 35px;
+}
+
+#form-input-search {
+
+	
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 4px 20px 5px 40px;
+
+	
+
+}
+
+.button {
+    background-color: #5a5d95; /* Green */	
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+}
+
+
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

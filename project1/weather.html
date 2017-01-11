@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Name: Alagiya, Ravi 
+Project : project 1
+Due Date : October 19, 2016 
+UTA ID: 1001452485
+  -->
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+
+  </head>
+  <body >
+  
+    <header>
+        <h1 class="header"> Weather Web Application</h1>
+    </header>
+   
+      
+    
+    <div class="inputDiv">
+        <form class="inputForm">
+           <label>City</label> 
+           <input type="text" placeholder="Search.."   id="form-input-search" onkeydown="if (event.keyCode == 13)
+                        document.getElementById('displayButton').click()" />
+           <input type="button" class="button button1 button2" id="displayButton" onclick="sendRequest();" value="Display Info"/>
+         
+        </form>
+    </div>
+    
+    <div class="cityInfo">
+      <div class="col12">
+        <div><label id="cityName"></label></div>
+        <div  id="latlon"></div>
+      </div>
+      <div class="col22 img"><img id="imgID" src=""  ></div>
+    </div>
+    
+    <div class="WeatherDetails">
+      <div class="col12">
+        <div ><label id="tempLabel" ></label></div>
+        <div class="col12" id="currentTemp"></div>
+        <div class="col22"> 
+          <div id="minT"></div>
+          <div id="maxT"></div>
+        </div>
+      </div>
+        <div class="col22">
+            <div id="humidity"></div>
+            <div id="visiblity"></div>
+            <div id="pressure"></div> 
+        </div>
+    </div>
+     
+
+     <div class="WeatherAdvise">
+       <div id="clouds"></div>
+       <div id="weather">&nbsp;</div>
+       <div id="advice">&nbsp;</div>
+     </div>
+
+     <div class="dayInfo">
+       <div id="sunRise" class="col12"></div>
+        <div id="sunSet" class=col22"">&nbsp;</div>
+     </div>
+   
+
+  </body>
+</html>
