@@ -1,0 +1,21 @@
+header
+{
+    margin: 0px;
+    padding: 18px;
+	text-align: center;
+	background: #3B3738;
+    
+    
+}
+h1.header
+{
+    color:#F6F6F6;
+padding: 0;
+margin: 0;
+
+}
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
