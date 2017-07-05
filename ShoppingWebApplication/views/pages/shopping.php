@@ -54,14 +54,9 @@ $password = "";
 
 	<?php
 if (!empty($books))
-/*	foreach ($books as $row ) {
-		# code...
-	}*/
-
-#print_r($books);
 
 	foreach ($books as $row) {
-	# code...
+	
 			  	?>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 							<p><div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -112,19 +107,13 @@ if (!empty($books))
 		    if (this.readyState==4 && this.status==200) {
 
 
-	    	document.getElementById("cartNumber").innerHTML= this.responseText;
-	     //TODO
-		//alert("item has been " + this.responseText +"added succesfully");
-
-
-		//alert(this.responseText);
-
-	     // document.getElementById("txtHint").innerHTML=this.responseText;
+	    		document.getElementById("cartNumber").innerHTML= this.responseText;
+	     
 	   	 }
 	  	}
-	  xmlhttp.open("GET","processcart?item="+item,true);
-	  xmlhttp.send();
-
+	 	xmlhttp.open("GET","processcart?item="+item,true);
+		xmlhttp.send();
+	
 
 	}
 
