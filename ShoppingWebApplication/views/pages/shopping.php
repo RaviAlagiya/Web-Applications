@@ -83,11 +83,6 @@ if (!empty($books))
 
 
 	 ?>
-
-
-
-			
-	
 	
 
 	</div>
